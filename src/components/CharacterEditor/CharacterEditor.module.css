@@ -1,6 +1,8 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+
+  /* Isolate for this element behind perspective background*/
   isolation: isolate;
 }
 
@@ -24,11 +26,9 @@
 
 .characterWrapper {
   position: fixed;
-  top: 80px;
-  right: 16%;
-}
-
-.characterWrapper svg {
+  top: 10%;
+  bottom: 5%;
+  left: 60%;
   min-height: 500px;
 }
 
